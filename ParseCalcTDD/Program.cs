@@ -2,7 +2,7 @@
 
 namespace ParseCalcTDD
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -32,6 +32,11 @@ namespace ParseCalcTDD
             Console.WriteLine(Val1 + " * " + Val2 + " = " + Mul);
             Console.WriteLine(Val1 + " / " + Val2 + " = " + Div);
 
+        }
+        static public double Interperate(string Val1)
+        {
+
+            return 0; 
         }
         
     }
